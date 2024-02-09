@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MySuite">
+    <test name="MyTest">
+        <classes>
+            <class name="com.example.HelloWorldWithAssertion"/>
+            <class name="com.example.SimpleAssertionWithDummyCode"/>
+            <class name="com.example.OpenW3SchoolWithoutAssertion"/>
+            <class name="com.example.OpenW3SchoolWithJUnitAssertion"/>
+            <class name="com.example.OpenW3SchoolWithTestNGAssertion"/>
+        </classes>
+    </test>
+</suite>

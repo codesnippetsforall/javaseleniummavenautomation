@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Allure Test Suite">
+    <listeners>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+    </listeners>
+    <test name="Allure Test">
+        <classes>
+            <class name="com.example.OpenW3SchoolWithExtentReportAssertion"/>
+        </classes>
+    </test>
+</suite>
