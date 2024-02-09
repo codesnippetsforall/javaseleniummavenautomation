@@ -13,7 +13,7 @@ public class OpenW3SchoolWithoutAssertion {
 
         //Latest as per Google Chrome: 121.0.6167.161
         //Chrome Driver version: 
-        System.setProperty("webdriver.chrome.driver", "D:\\Mano\\ChromeDriver\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "D:\\Tester\\ChromeDriver\\chromedriver.exe");
 
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.w3schools.com/html/default.asp");

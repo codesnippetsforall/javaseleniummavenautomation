@@ -18,7 +18,7 @@ public class OpenW3SchoolWithTestNGAssertion {
     @BeforeMethod
     public void setUp() {
         // Set the path to the ChromeDriver executable
-        System.setProperty("webdriver.chrome.driver", "D:\\Mano\\ChromeDriver\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "D:\\Tester\\ChromeDriver\\chromedriver.exe");
 
         // Create a new instance of the ChromeDriver
         driver = new ChromeDriver();
